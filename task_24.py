@@ -10,11 +10,12 @@
 
 # Если условия задачи постоянны, и количество ягод соответствуют порядковому номеру куста, то логично, что
 # с крайних 3 кустов будет максимальное количество ягод:
-N = int(input('Введите количество кустов: '))
-input_list = [i for i in range(1, N+1)]
-max_berries = 0
-for i in range(N-2, N+1): max_berries+=i
-print(max_berries)
+
+# N = int(input('Введите количество кустов: '))
+# input_list = [i for i in range(1, N+1)]
+# max_berries = 0
+# for i in range(N-2, N+1): max_berries+=i
+# print(max_berries)
 
 # решение, если заморачиваться:
 N = int(input('Введите количество кустов: '))
